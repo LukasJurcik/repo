@@ -635,14 +635,14 @@ h7 {
     padding: 20px 10px;
     color: #f0f0f0;
     font-style: italic;
-    width: 500px;
+    width: 400px;
     margin: 20px auto 0 auto;
 }
 
 img#tst {
     width: 100px;
     height: 100px;
-    border-radius: 0px;
+    border-radius: 500px;
     margin-top: 10px;
 }
 

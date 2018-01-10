@@ -18,10 +18,10 @@ $(window).scroll(function(){
             intrvl;
         // bca - Bubble Content Array. Put your content here.
         var bca = [
-            '<img id="tst" src="img/dancer-with-music%20(2).png"><h2>Urban Dance</h2><p>Hver torsdag kl.16:00-17:00 (8-11 årige) kl.17:00-18:00 (12-18 årige)</p>',
-            '<img id="tst" src="img/microphone.png"><h2>Urban Music</h2><p>Hver torsdag Lydstudiet i Den Røde Varmecentral fra kl.15:00-19:00.</p>',
-            '<img id="tst" src="img/Lisbeth.jpg"><h2>Sasha</h2><p>-Times ipsum dolor sit amet, consectetur adipisicing elit. Officia aperiam omnis praesentium</p>',
-            '<img id="tst" src="img/Lisbeth.jpg"><h2>Sasha</h2><p>-Times ipsum dolor sit amet, consectetur adipisicing elit. Officia aperiam omnis praesentium</p>'
+            '<img id="tst" src="img/dancer.png"><h2>Urban Dance</h2><p>Hver torsdag kl.16:00-17:00 (8-11 årige) kl.17:00-18:00 (12-18 årige)</p>',
+            '<img id="tst" src="img/mice.png"><h2>Urban Music</h2><p>Hver torsdag Lydstudiet i Den Røde Varmecentral fra kl.15:00-19:00.</p>',
+            '<img id="tst" src="img/light.png"><h2>Urban Explore</h2><p>Hver onsdag i Red Heating Centre fra 14:00 til 16:00.</p>',
+            '<img id="tst" src="img/talk.png"><h2>Fremskudt UU-vejledning</h2><p>Hver mandag og onsdag fra 16:00 til 20:00 i Vejleåparken.</p>'
         ];
         // This function is triggered by the bubbleSlide() function below
         function bubbles(bi) {
