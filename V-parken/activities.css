@@ -1,0 +1,380 @@
+body, html{
+/*
+    color: #383b40;
+    color: #fc6246;
+    color: #ffc406;
+    color: #fcab42;
+    color: #fe5d4b;
+    color: #d9054f;
+*/
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    top: 0!important;
+    font-family: 'Poppins', sans-serif;
+    display: table;
+}
+
+.nav {
+    text-align: right;
+    height:60px;
+    line-height: 60px;
+    background-color:#383b40;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+.menu{
+    text-align: right;
+    background-color:rgba(56, 59, 64, 0.95);
+    padding-right: 50px;
+    top: 70px;
+}
+.menu img{
+    width: 35px;
+    display: block;
+    float: right;
+    padding-top: 12px;
+    transition: .5s;
+}
+.menu img:hover{
+    filter: invert(30%);
+}
+label{
+    padding: 0 40px 0 0;
+    font-size: 35px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+    color: #fc6246;
+}
+#toggle {
+    display: none;
+}
+.logo {
+    max-width: 70px;
+    position: absolute;
+    left: 0;
+    padding: 8px 0 0 40px;
+}
+.navpic{
+    background: url(img/Park.jpg) center no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+}
+#google_translate_element{
+    margin-top: 20px;
+    margin-right: 60px;
+    right: 0;
+    position: absolute;
+    height: 28px;
+    max-width: 130px;
+    overflow: hidden;
+    color: #ffffff;
+    border-radius: 15px;
+    border: 1.4px solid rgb(75, 75, 75)!important;
+}
+#google_translate_element span{
+    display: inline-block;
+    width: auto;
+    margin: 3px;
+    color: #ffffff!important;
+    font-weight:700;
+}
+.goog-te-gadget img{
+    margin: 0px;
+    display: none;
+}
+
+.goog-te-banner-frame{
+    display: none!important;
+}
+.goog-te-gadget-simple{
+    background-color: rgba(69, 69, 69, 0.55)!important;
+    height: 30px;
+    width: 100%;
+    border: none!important;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.articles{
+    max-width: 1000px;
+    height: 1100px;
+    margin: 150px auto 100px auto;
+}
+.articles{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows:  33.333% 33.333% 33.333%;
+    grid-template-areas:
+        "onetxt onepic twotxt twopic"
+        "threepic threetxt fourpic fourtxt"
+        "fivetxt fivepic sixtxt sixpic";
+}
+.onetxt{
+    grid-area: onetxt;
+}
+.onepic{
+    grid-area: onepic;
+    background: url(img/pic6big.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.twotxt{
+    grid-area: twotxt;
+}
+.twopic{
+    grid-area: twopic;
+    background: url(img/urbanmusic.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.threepic{
+    grid-area: threepic;
+    background: url(img/pic4big.jpg) right no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.threetxt{
+    grid-area: threetxt;
+}
+.fourpic{
+    grid-area: fourpic;
+    background: url(img/pic3big.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.fourtxt{
+    grid-area: fourtxt;
+}
+.fivetxt{
+    grid-area: fivetxt;
+}
+.fivepic{
+    grid-area: fivepic;
+    background: url(img/uu.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.sixtxt{
+    grid-area: sixtxt;
+}
+.sixpic{
+    grid-area: sixpic;
+    background: url(img/krava.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.articles img{
+    width: 50px;
+    margin-top: 60%;
+}
+img.tria{
+    transform: rotate(180deg);
+    float: right;
+}
+.txtcont{
+    padding: 0px 30px 10px 10px;
+    background-color: white;
+}
+h2{
+     font-family: 'Fjalla One';
+     font-size: 30px;
+}
+h1{
+    text-decoration: none;
+    position: relative;
+    margin: 10px 0 40px 0;
+    font-size: 45px;
+     font-family: 'Fjalla One';
+}
+h1:after{
+    position: absolute;
+    height: 4px;
+    content: '';
+    left: 2px;
+    top: 60px;
+    width: 40px;
+    color: #000;
+    background-color: #000000;
+    bottom: -3px;
+}
+h7{
+    text-align: center;
+    display: block;
+    margin: 10px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+p{
+    font-size: 14px;
+    color: #525252;
+    margin-bottom: 0px;
+}
+.social {
+    height: 50px;
+    background-color: #383b40;
+    float: right;
+    padding: 25px 50px 0px 0;
+}
+
+.social img {
+    width: 40px;
+    margin: 0px 20px 0px 20px;
+}
+
+.info {
+    display: inline-block;
+    padding: 35px 0 0 50px;
+}
+
+span img {
+    width: 20px;
+    margin-right: 20px;
+}
+
+footer span {
+    text-align: left;
+    margin: 15px;
+    font-size: 15px;
+    color: white;
+}
+footer {
+    background-color: #383b40;
+    display: table-row;
+    height: 1px;
+    flex: none;
+}
+.stripe{
+    background-color: rgba(255, 255, 255, 0);
+}
+.articles a:active,.articles a:visited,.articles a:link{
+    color: #000000;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1025px){
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .nav{
+        z-index: 9999;
+        position: fixed;
+    }
+    .nav label{
+        display: none;
+    }
+    #google_translate_element{
+        left: 50%;
+        transform: translate(-50%, 0);
+        margin-top: 65px;
+        background-color: rgba(255, 255, 255, 0.55)!important;
+    }
+    .stripe{
+        display: block;
+        background-color: #383b40;
+        width: 100%;
+        height: 120px;
+    }
+    h7{
+        font-size: 10px;
+        margin-top: -10px;
+        line-height: 20px;
+
+    }
+    .social img{
+        width: 35px;
+        margin: 13px 20px 0 20px;
+    }
+    .articles{
+        z-index: -1;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows:  16.666% 16.666% 16.666% 16.666% 16.666% 16.666% 16.666%;
+        grid-template-areas:
+        "onetxt onepic"
+        "twopic twotxt"
+        "threetxt threepic"
+        "fourpic fourtxt"
+        "fivetxt fivepic"
+        "sixpic sixtxt";
+}
+    .articles{
+        max-width:  auto;
+        height: 2700px;
+        margin: 0px auto 0px auto;
+}
+    .articles img{
+        width: 50px;
+        margin-left: -1px;
+        margin-top: 100%;
+}
+    img.tria{
+        transform: rotate(0deg);
+        float: none;
+}
+    .articles img{
+        width: 50px;
+        margin-top: 185px;
+}
+    img.triamob{
+        transform: rotate(180deg);
+        float: right;
+        margin-right: -1px;
+}
+    .navpic{
+        display: none;
+    }
+    .social {
+        height: 50px;
+        float: none;
+        padding: 10px 0 0 0;
+        text-align: center;
+    }
+
+    .social img {
+        width: 35px;
+        margin: 0px 20px 0px 20px;
+    }
+    .info {
+        padding: 20px 50px 0 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    span img {
+        width: 18px;
+        margin-right: 20px;
+    }
+    footer span {
+        text-align: center;
+        margin: 10px;
+        color: white;
+        font-size: 13px;
+    }
+    footer {
+        background-color: #383b40;
+        display: table-row;
+        height: 1px;
+    }
+}
+

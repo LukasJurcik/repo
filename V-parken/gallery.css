@@ -1,0 +1,351 @@
+body,
+html {
+    /*
+    color: #383b40;
+    color: #fc6246;
+    color: #ffc406;
+    color: #fcab42;
+    color: #fe5d4b;
+    color: #d9054f;
+*/
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    top: 0!important;
+    font-family: 'Poppins', sans-serif;
+    display: table;
+}
+
+.nav {
+    text-align: right;
+    height: 60px;
+    line-height: 70px;
+    background-color: #383b40;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+.menu {
+    text-align: right;
+    background-color: rgba(56, 59, 64, 0.95);
+    padding-right: 50px;
+    top: 70px;
+}
+
+.menu{
+    text-align: right;
+    background-color:rgba(56, 59, 64, 0.95);
+    padding-right: 50px;
+    top: 70px;
+}
+.menu img{
+    width: 35px;
+    display: block;
+    float: right;
+    padding-top: 12px;
+    transition: .5s;
+}
+.menu img:hover{
+    filter: invert(30%);
+}
+
+
+label {
+    padding: 0 40px 0 0;
+    font-size: 35px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+    color: #fc6246;
+}
+
+#toggle {
+    display: none;
+}
+
+.logo {
+    max-width: 70px;
+    position: absolute;
+    left: 0;
+    padding: 8px 0 0 40px;
+}
+
+.navpic {
+    background: url(img/Park.jpg) center no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+}
+
+.gallery {
+    height: auto;
+}
+
+.content {
+    width: 750px;
+    height: 450px;
+    margin: 70px auto 70px auto;
+}
+
+.content {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "one one two" "three four two";
+}
+
+.one {
+    grid-area: one;
+    position: relative;
+    overflow: hidden;
+}
+
+.picone {
+    background: url(img/gal1-1.jpg) center no-repeat;
+    max-width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: all 2s;
+}
+
+.picone:hover,
+.pictwo:hover,
+.picthree:hover,
+.picfour:hover {
+    transform: scale(1.1);
+}
+
+.two {
+    grid-area: two;
+    position: relative;
+    overflow: hidden;
+}
+
+.pictwo {
+    background: url(img/myndin-69_r_960_620.jpg) center no-repeat;
+    max-width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: all 2s;
+}
+
+.three {
+    grid-area: three;
+    position: relative;
+    overflow: hidden;
+}
+
+.picthree {
+    background: url(img/gal1-2.jpg) center no-repeat;
+    max-width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: all 2s;
+}
+
+.four {
+    grid-area: four;
+    position: relative;
+    overflow: hidden;
+}
+
+.picfour {
+    background: url(img/gal1-3.jpg) center no-repeat;
+    max-width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: all 2s;
+}
+
+h7 {
+    text-align: center;
+    display: block;
+    margin: 10px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.two h1 {
+    padding-top: 200px;
+}
+
+.three h1 {
+    padding-top: 60px;
+    font-size: 35px
+}
+
+.four h1 {
+    padding-top: 70px;
+    font-size: 35px
+}
+
+.social {
+    height: 50px;
+    background-color: #383b40;
+    float: right;
+    padding: 25px 50px 0px 0;
+}
+
+.social img {
+    width: 35px;
+    margin: 0px 20px 0px 20px;
+}
+
+.info {
+    display: inline-block;
+    padding: 35px 0 0 50px;
+}
+
+span img {
+    width: 20px;
+    margin-right: 20px;
+}
+
+footer span {
+    text-align: left;
+    margin: 15px;
+    color: white;
+    font-size: 13px;
+}
+
+footer {
+    background-color: #383b40;
+    display: table-row;
+    height: 1px;
+}
+
+.gallery a:active,
+.gallery a:visited,
+.gallery a:link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Fjalla One';
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1025px) {
+    label {
+        display: none;
+        cursor: pointer;
+    }
+    .nav {
+        z-index: 9999;
+        position: fixed;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+    .menu img{
+        width: 35px;
+        display: block;
+        float: right;
+        padding-top: 12px;
+        padding-right: 50px;
+        transition: .5s;
+}
+    #toggle:checked + .menu {
+        display: block;
+    }
+    h7 {
+        font-size: 10px;
+        margin-top: -10px;
+        line-height: 20px;
+    }
+    .social img {
+        width: 35px;
+        margin: 13px 20px 0 20px;
+    }
+    .content {
+        display: grid;
+        grid-gap: 0px;
+        grid-template-rows: 33.333% 33.333% 33.333%;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "one three" "one two" "four two";
+    }
+    .content {
+        max-width: 350px;
+        height: 500px;
+        margin: 155px auto 85px auto;
+    }
+    .content {
+        padding-left: -50px;
+    }
+    .navpic {
+        display: none;
+    }
+    .one {
+        padding: 0 3px 3px 0;
+    }
+    .two {
+        padding: 3px 0 0 3px;
+    }
+    .three {
+        padding: 0 0 3px 3px;
+    }
+    .four {
+        padding: 3px 3px 0 0;
+    }
+    h1 {
+        margin: 0;
+        padding-top: 150px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .two h1 {
+        padding-top: 150px;
+        font-size: 30px;
+    }
+    .three h1 {
+        padding-top: 50px;
+        font-size: 25px
+    }
+    .four h1 {
+        padding-top: 50px;
+        font-size: 25px
+    }
+    .social {
+        height: 50px;
+        float: none;
+        padding: 10px 0 0 0;
+        text-align: center;
+    }
+
+    .social img {
+        width: 35px;
+        margin: 0px 20px 0px 20px;
+    }
+    .info {
+        padding: 20px 50px 0 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    span img {
+        width: 18px;
+        margin-right: 20px;
+    }
+    footer span {
+        text-align: center;
+        margin: 10px;
+        color: white;
+        font-size: 13px;
+    }
+    footer {
+        background-color: #383b40;
+        display: table-row;
+        height: 1px;
+    }
+}
