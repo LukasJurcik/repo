@@ -150,7 +150,18 @@ label {
     font-size: 20px;
     text-align: center;
 }
-
+h10{
+    display: block;
+    text-align: center;
+    margin-top: -80px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 14px;
+}
+h10 a:link,h10 a:visited,a:active{
+    color: orange;
+    text-decoration: underline;
+}
 h4 {
     padding: 8px 0 0 0;
     font-size: 17px;
@@ -861,7 +872,7 @@ img#tst {
     }
     .mapinfo iframe {
         margin-bottom: -180px;
-        margin-top: 50px;
+        margin-top: 10px;
     }
     .social {
         text-align: center;
@@ -873,6 +884,9 @@ img#tst {
     }
     .social img {
         width: 40px;
+    }
+    .social{
+        margin-top: -10px;
     }
     #main img {
         width: 95px
@@ -914,6 +928,14 @@ img#tst {
     h5,
     h6 {
         font-size: 8px;
+    }
+    h10{
+        padding: 250px 30px 0 30px ;
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    h10 br{
+        display: none;
     }
     img#tst{
         width: 100px;
